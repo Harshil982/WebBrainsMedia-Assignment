@@ -1,0 +1,45 @@
+.subject-data-container
+{
+    border: 2px solid salmon;
+    width: 290px;
+    margin: 2vw;
+    padding-left: 1vw;
+}
+.subject-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.notification-container
+{
+    position: fixed;
+    right: 3vw;
+    top: 2vw;
+    border: 5px solid green;
+    padding: 0.2rem 3rem;
+    border-radius: 1.2rem;
+    background-color: rgba(4, 128, 0, 0.901);
+    color: white;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(-20px);
+    display: flex;
+    align-items: center;
+}
+.d-none
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.close-btn
+{
+    /* color: green; */
+    z-index: 100;
+    margin-left: 1rem;
+    cursor: pointer;
+}
